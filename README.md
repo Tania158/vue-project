@@ -40,15 +40,12 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Features:
 
-- Authentication functionality for User
-- User profile page
-- Profile editing functionality
-- Creating, editing, deleting a post functionality
-- Search by popular tags functionality
-- Creating, deleting comments functionality
-- Follow/unfollow post authors functionality
-- Likes/dislikes functionality
-- Pagination functionality
+- Created a new Vue.js project using the Vue CLI.
+- Installed Axios for making HTTP requests.
+- Created a new component for the news list.
+- Added the NewsList component to the MainPage.vue file.
+- added styles and template according to the layout.
+- the project is deployed.
 
 ![Website interface](demo.png)
 
