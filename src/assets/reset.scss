@@ -1,0 +1,104 @@
+/*reset.css*/
+/* RESETS */
+$maxWidthContainer: 1250px;
+$fontSize: 14px;
+$fontFamily: 'Roboto', sans-serif;
+$minWidth: 320px;
+$mainBlackColor: rgba(0, 0, 0, 0.8);
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+  height: 100%;
+  min-width: $minWidth;
+}
+
+body {
+  color: $mainBlackColor;
+  line-height: 1;
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+ul li {
+  list-style: none;
+  padding: 0;
+}
+
+input,
+button,
+textarea {
+  font-family: $fontFamily;
+  font-size: inherit;
+  margin: 0;
+  overflow: visible;
+}
+
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  appearance: none;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+input[type="text"] {
+  border-radius: 0;
+}
+
+a {
+  color: inherit;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+/*END RESETS*/
