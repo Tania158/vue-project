@@ -6,7 +6,7 @@ This project was generated with [Vue.js CLI](https://cli.vuejs.org/) version 3.2
 
 ## Check it out!
 
-[deployed to Firebase]()
+[deployed to Firebase](https://vue-test-project-9f665.web.app/)
 
 ## Built With
 
@@ -23,7 +23,7 @@ Below is an example of how you can installing and setting up your app. This temp
 1. Get a free API Key at [https://63ee0ec0388920150dd83e3c.mockapi.io/news](https://63ee0ec0388920150dd83e3c.mockapi.io/news)
 2. Clone the repo
    ```sh
-   git clone https://github.com/Tania158/vue-project
+   git clone https://github.com/Tania158/vue-project.git
    ```
 3. Install NPM packages
    ```sh
